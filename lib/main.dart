@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mck_pay/authpage.dart';
+import 'package:mck_pay/homeScreen.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 void main() async {
@@ -48,7 +49,7 @@ class AppTheme extends StatelessWidget {
         ),
       ),
       initialRoute: '/',
-      routes: {'/': (context) => AuthPage()},
+      routes: {'/': (context) => HomeScreen()},
     );
   }
 }
